@@ -1,0 +1,328 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: white;
+    color: black;
+    margin: 5px 0px;
+    text-align: center;
+    
+}
+
+header nav ul li{
+    display: inline;
+    margin-left: 40px;
+    
+}
+
+
+.heros{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    background-color:rgb(245, 245, 247);
+    
+
+
+}
+.heros h1{
+    margin-bottom: 30px;
+}
+
+.btn{
+    margin-top: 10px;
+    
+}
+
+.btn1{
+    width: 10%;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+.btn2{
+    width: 5%;
+    height: 40px;
+    background-color:transparent;
+    color: black;
+    border: 2px solid blue;
+    border-radius: 20px;
+}
+.btn2:hover{
+    background-color: blue;
+    color: white;
+}
+
+
+
+
+.second{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 40px;
+}
+
+.second h1{
+    padding-top: 50px 0px;
+    
+}
+.second p{
+    font-size: 20px;
+}
+
+.btn20{
+    width: 5%;
+    height: 40px;
+    background-color:transparent;
+    color: white;
+    border: 2px solid blue;
+    border-radius: 20px;
+}
+
+.btn20:hover{
+    background-color: blue;
+    color: white;
+}
+
+.main{
+    display: flex;
+    margin: 5px;
+}
+
+.box1{
+    width: 49%;
+    background-color: black;
+    color: white;
+    margin: 6px;
+    padding-top: 40px;
+    text-align: center;
+
+}
+.para p{
+    color: red;
+}
+
+.box1 img{
+    width: 100%;
+}
+
+.Boxbtn{
+    margin-top: 10px;
+    
+}
+
+.Boxbtn1{
+    width: 15%;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+.Boxbtn20{
+    width: 10%;
+    height: 40px;
+    background-color:transparent;
+    color: white;
+    border: 2px solid blue;
+    border-radius: 20px;
+}
+.Boxbtn20:hover{
+    background-color: blue;
+
+}
+
+.main2{
+    display: flex;
+    margin: 5px;
+}
+
+.box21{
+    width: 49%;
+    background-color: white;
+    color: black;
+    margin: 5px;
+    padding-top: 40px;
+    text-align: center;
+
+}
+
+.box21 img{
+    width: 100%;
+    
+}
+
+.Box2btn{
+    margin-top: 10px;
+    
+}
+
+.Box2btn1{
+    width: 15%;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+.Box2btn2{
+    width: 10%;
+    height: 40px;
+    background-color:transparent;
+    color: black;
+    border: 2px solid blue;
+    border-radius: 20px;
+}
+.Box2btn2:hover{
+    background-color: blue;
+
+}
+
+.box22{
+    width: 49%;
+    background-color: rgb(211, 239, 229);
+    color: black;
+    margin: 5px;
+    padding-top: 40px;
+    text-align: center;
+
+}
+.box22 img{
+    width: 100%;
+
+}
+
+.main3{
+    display: flex;
+    justify-content: center;
+}
+
+.box31{
+    width: 50%;
+    background-color: #f5f5f7;
+    
+    
+
+}
+.box31 img{
+    width: 100%;
+}
+
+.box32{
+    width: 50%;
+    background-color: #f5f5f7;
+    text-align: center;
+    padding-top: 200px;
+    
+}
+
+.Box3btn{
+    margin-top: 10px;
+    
+}
+
+.Box3btn1{
+    width: 15%;
+    height: 40px;
+    background-color:transparent;
+    color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.Box3btn2{
+    width: 10%;
+    height: 40px;
+    background-color:transparent;
+    color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+footer{
+    width: 100%;
+    background-color: rgb(245, 245, 247);
+}
+.firstfooter p , ol li , hr , .secondfooter , footer p{
+    margin: 20px 150px;
+    /* padding-top: 5px; */
+    color: gray;
+    font-size: 14px;
+    list-style-position: inside;
+}
+.firstfooter p a{
+    color: gray;
+}
+
+.secondfooter{
+    display: flex;
+    
+}
+.secondfooter1 {
+    margin-left: 50px;
+}
+
+
+.secondfooter ul li , .secondfooter ul li a{
+    margin: 10px 0px;
+    text-decoration: none;
+    color: gray;
+    list-style: none;
+}
+
+.secondfooter a:hover{
+    text-decoration: underline;
+}
+.span{
+    color: black;
+    font-weight: bold;
+}
+footer p {
+    margin-top: 20px ;
+    
+}
+footer p a{
+    color: rgb(49,131,213);
+}
+
+.mainfooter{
+    display: flex;
+    padding-bottom: 20px;
+}
+.mainfooter div a{
+    text-decoration: none;
+    font-size: 14px;
+    color: gray;
+    
+}
+
+.mainfooter div a:hover{
+    text-decoration: underline;
+    
+}
+.text{
+    margin-left: 150px;
+    font-size: 14px;
+    color: gray;
+}
+.bootomA{
+    margin-right: 5px;
+    
+}
+.bootomA1{
+    margin-left: 40px;
+    margin-right: 5px;
+}
+.una{
+    margin-left: 170px;
+}
