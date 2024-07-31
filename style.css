@@ -9,6 +9,8 @@ header{
     color: black;
     margin: 5px 0px;
     text-align: center;
+    position: sticky;
+    top: 0px;
     
 }
 
